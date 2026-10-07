@@ -1,105 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamik Duo | Fitness & Wellness</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dynamik Duo | Fitness & Wellness</title>
+
+<meta name="description"
+content="Personal training, wellness coaching and fitness transformation programs.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <div class="logo">DYNAMIK DUO</div>
+<header>
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#services">Programs</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <div class="logo">
+        DYNAMIK DUO
+    </div>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Strength. Wellness. Transformation.</h1>
-            <p>
-                Helping you build a stronger body, healthier lifestyle,
-                and sustainable fitness habits.
-            </p>
+    <nav>
+
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#instagram">Instagram</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <span class="eyebrow">
+            FITNESS • WELLNESS • LIFESTYLE
+        </span>
+
+        <h1>
+            Build Strength.<br>
+            Elevate Wellness.
+        </h1>
+
+        <p>
+            Personal training, wellness coaching and sustainable
+            fitness programs designed around your lifestyle.
+        </p>
+
+        <div class="hero-buttons">
 
             <a href="#contact" class="btn">
-                Start Your Journey
-            </a>
-        </div>
-    </section>
-
-    <section id="about" class="section">
-        <h2>About Us</h2>
-
-        <p>
-            Dynamik Duo is more than a gym. We combine fitness,
-            physical wellbeing, and wellness coaching to help people
-            achieve lasting results. Whether you're beginning your
-            fitness journey or looking to elevate your performance,
-            our programs are designed to support your goals.
-        </p>
-    </section>
-
-    <section id="services" class="section">
-        <h2>Our Programs</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <h3>Personal Training</h3>
-                <p>
-                    Customized workouts designed around your goals,
-                    fitness level, and lifestyle.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Wellness Coaching</h3>
-                <p>
-                    Guidance focused on sustainable habits,
-                    recovery, and overall wellbeing.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Fitness Programs</h3>
-                <p>
-                    Structured programs that improve strength,
-                    mobility, endurance, and confidence.
-                </p>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <h2>Get In Touch</h2>
-
-        <p>
-            Ready to start? Contact us and we'll help you find
-            the right program.
-        </p>
-
-        <div class="contact-links">
-            <a href="https://www.instagram.com/dynamik.duo/" target="_blank">
-                Instagram
+                Book Consultation
             </a>
 
-            <a href="mailto:hello@dynamikduo.com">
-                Email Us
+            <a href="#programs" class="btn-outline">
+                View Programs
             </a>
+
         </div>
-    </section>
 
-    <footer>
-        <p>© 2026 Dynamik Duo. All Rights Reserved.</p>
-    </footer>
+    </div>
 
-    <script src="script.js"></script>
+</section>
+
+<section id="about" class="section fade">
+
+    <div class="about-grid">
+
+        <img
+        src="images/about.jpg"
+        alt="Fitness Training">
+
+        <div>
+
+            <span class="eyebrow">
+                ABOUT US
+            </span>
+
+            <h2>
+                More Than A Gym
+            </h2>
+
+            <p>
+                Dynamik Duo combines fitness, wellness and sustainable
+                lifestyle coaching to help people become stronger,
+                healthier and more confident.
+            </p>
+
+            <div class="stats">
+
+                <div>
+                    <h3 class="counter" data-target="100">0</h3>
+                    <span>Clients Trained</span>
+                </div>
+
+                <div>
+                    <h3 class="counter" data-target="5">0</h3>
+                    <span>Years Experience</span>
+                </div>
+
+                <div>
+                    <h3 class="counter" data-target="1">0</h3>
+                    <span>Mission</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="programs" class="section fade">
+
+    <span class="eyebrow center">
+        OUR PROGRAMS
+    </span>
+
+    <h2>
+        Tailored To Your Goals
+    </h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <img src="images/training.jpg" alt="">
+
+            <h3>Personal Training</h3>
+
+            <p>
+                Customized workouts designed around
+                your goals and lifestyle.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="images/wellness.jpg" alt="">
+
+            <h3>Wellness Coaching</h3>
+
+            <p>
+                Sustainable habits, recovery and
+                overall wellbeing support.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <img src="images/transformation.jpg" alt="">
+
+            <h3>Fitness Transformation</h3>
+
+            <p>
+                Structured programs focused on
+                strength, mobility and confidence.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="testimonials" class="section fade">
+
+    <span class="eyebrow center">
+        TESTIMONIALS
+    </span>
+
+    <h2>
+        What Clients Say
+    </h2>
+
+    <div class="cards">
+
+        <div class="card testimonial">
+            <p>
+                "The best investment I've made in my health."
+            </p>
+            <strong>— Sarah K.</strong>
+        </div>
+
+        <div class="card testimonial">
+            <p>
+                "Amazing support throughout my journey."
+            </p>
+            <strong>— Ahmed R.</strong>
+        </div>
+
+        <div class="card testimonial">
+            <p>
+                "I gained confidence and sustainable habits."
+            </p>
+            <strong>— Jessica M.</strong>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="instagram" class="section fade">
+
+    <span class="eyebrow center">
+        FOLLOW OUR JOURNEY
+    </span>
+
+    <h2>
+        On Instagram
+    </h2>
+
+    <div class="instagram-grid">
+
+        <img src="images/insta1.jpg" alt="">
+        <img src="images/insta2.jpg" alt="">
+        <img src="images/insta3.jpg" alt="">
+        <img src="images/insta4.jpg" alt="">
+        <img src="images/insta5.jpg" alt="">
+        <img src="images/insta6.jpg" alt="">
+
+    </div>
+
+    <div class="center-button">
+
+        <a
+        href="https://www.instagram.com/dynamik.duo/"
+        target="_blank"
+        class="btn">
+
+        Follow On Instagram
+
+        </a>
+
+    </div>
+
+</section>
+
+<section id="contact" class="section fade">
+
+    <span class="eyebrow center">
+        GET IN TOUCH
+    </span>
+
+    <h2>
+        Start Your Journey
+    </h2>
+
+    <p class="contact-text">
+        Reach out and we'll help you find the right
+        fitness and wellness program.
+    </p>
+
+    <form class="contact-form">
+
+        <input
+        type="text"
+        placeholder="Name">
+
+        <input
+        type="email"
+        placeholder="Email">
+
+        <input
+        type="tel"
+        placeholder="Phone">
+
+        <textarea
+        placeholder="Message"></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+
+    <div>
+        DYNAMIK DUO
+    </div>
+
+    <p>
+        © 2026 Dynamik Duo. All Rights Reserved.
+    </p>
+
+</footer>
+
+<a href="#contact" class="floating-cta">
+    Book Consultation
+</a>
+
+<script src="script.js"></script>
 
 </body>
 </html>
